@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Touch swipe example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <!-- Demo styles -->
+  <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper-container-v {
+      background: #eee;
+    }
+  </style>
+  </head>
+  <body>
+   
+  <!-- Swiper -->
+  <div class="swiper-container swiper-container-h">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Horizontal Slide 1</div>
+      <div class="swiper-slide">
+        <div class="swiper-container swiper-container-v">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              Forex Majors
+            </div>
+            <div class="swiper-slide">
+              <img src="http://stockcharts.com/def/servlet/SharpChartv05.ServletDriver?c=%24USDJPY,PGUADVNRNO[PA][D][F1!3!0.4!!2!20]&r=4001&pnf=y">
+            </div>
+            <div class="swiper-slide">
+              <img src="http://stockcharts.com/def/servlet/SharpChartv05.ServletDriver?c=%24USDCAD,PGUADVNRNO%5BPA%5D%5BD%5D%5BF1!3!0.004!!2!20%5D&r=4001&pnf=y">
+            </div>
+            <div class="swiper-slide">
+              <img src="http://stockcharts.com/def/servlet/SharpChartv05.ServletDriver?c=%24USDCHF,PGUADVNRNO%5BPA%5D%5BD%5D%5BF1!3!0.004!!2!20%5D&r=4001&pnf=y">
+            </div>
+            <div class="swiper-slide">
+              <img src="http://stockcharts.com/def/servlet/SharpChartv05.ServletDriver?c=%24EURUSD,PGUADVNRNO%5BPA%5D%5BD%5D%5BF1!3!0.004!!2!20%5D&r=4001&pnf=y">
+            </div>
+            <div class="swiper-slide">
+              <img src="http://stockcharts.com/def/servlet/SharpChartv05.ServletDriver?c=%24GBPUSD,PGUADVNRNO%5BPA%5D%5BD%5D%5BF1!3!0.004!!2!20%5D&r=4001&pnf=y">
+            </div>
+            <div class="swiper-slide">
+              <img src="http://stockcharts.com/def/servlet/SharpChartv05.ServletDriver?c=%24AUDUSD,PGUADVNRNO%5BPA%5D%5BD%5D%5BF1!3!0.004!!2!20%5D&r=4001&pnf=y">
+            </div>
+            <div class="swiper-slide">
+              <img src="http://stockcharts.com/def/servlet/SharpChartv05.ServletDriver?c=%24NZDUSD,PGUADVNRNO%5BPA%5D%5BD%5D%5BF1!3!0.004!!2!20%5D&r=4001&pnf=y">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination-v"></div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-container swiper-container-v">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              Forex Crosses
+            </div>
+            <div class="swiper-slide">
+              <img src="http://stockcharts.com/def/servlet/SharpChartv05.ServletDriver?c=%24GBPJPY,PGUADVNRNO[PA][D][F1!3!0.4!!2!20]&r=4001&pnf=y">
+            </div>
+            <div class="swiper-slide">
+              <img src="http://stockcharts.com/def/servlet/SharpChartv05.ServletDriver?c=%24CHFJPY,PGUADVNRNO[PA][D][F1!3!0.4!!2!20]&r=4001&pnf=y">
+            </div>
+            <div class="swiper-slide">
+              <img src="http://stockcharts.com/def/servlet/SharpChartv05.ServletDriver?c=%24NZDJPY,PGUADVNRNO[PA][D][F1!3!0.004!!2!20]&r=4001&pnf=y">
+            </div>
+            <div class="swiper-slide">
+              <img src="http://stockcharts.com/def/servlet/SharpChartv05.ServletDriver?c=%24EURJPY,PGUADVNRNO[PA][D][F1!3!0.4!!2!20]&r=4001&pnf=y">
+            </div>
+            <div class="swiper-slide">
+              <img src="http://stockcharts.com/def/servlet/SharpChartv05.ServletDriver?c=%24GBPCAD,PGUADVNRNO[PA][D][F1!3!0.004!!2!20]&r=4001&pnf=y">
+            </div>
+            <div class="swiper-slide">
+              <img src="http://stockcharts.com/def/servlet/SharpChartv05.ServletDriver?c=%24EURAUD,PGUADVNRNO[PA][D][F1!3!0.004!!2!20]&r=4001&pnf=y">
+            </div>
+            <div class="swiper-slide">
+              <img src="http://stockcharts.com/def/servlet/SharpChartv05.ServletDriver?c=%24EURCHF,PGUADVNRNO[PA][D][F1!3!0.004!!2!20]&r=4001&pnf=y">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination-v"></div>
+        </div>
+      </div>
+      <div class="swiper-slide">Horizontal Slide 4</div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination swiper-pagination-h"></div>
+  </div>
+
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.esm.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.esm.bundle.js"></script>
+  <script>
+    var swiperH = new Swiper('.swiper-container-h', {
+      spaceBetween: 50,
+      pagination: {
+        el: '.swiper-pagination-h',
+        clickable: true,
+      },
+    });
+    var swiperV = new Swiper('.swiper-container-v', {
+      direction: 'vertical',
+      spaceBetween: 50,
+      pagination: {
+        el: '.swiper-pagination-v',
+        clickable: true,
+      },
+    });
+  </script>
+</html>
